@@ -10,7 +10,10 @@ const config = {
 			allowed: ['PATCH', 'DELETE']
 		},
 
-		prerender: false
+		prerender: {
+			crawl: false,
+			enabled: false,
+		}
 	}
 };
 
